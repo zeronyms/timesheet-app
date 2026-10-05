@@ -1,0 +1,452 @@
+[
+  {
+    "hash": "1eb5df86",
+    "repo": "super-app-be",
+    "date": "2026-09-01",
+    "message": "feat(profile-card): add logo to QR code generation in profile card template",
+    "ticketNo": "ITSM 5 - 001",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "0653a312",
+    "repo": "super-app-be",
+    "date": "2026-09-01",
+    "message": "feat(profile-card): add profile card URL configuration and update QR code data source",
+    "ticketNo": "ITSM 5 - 002",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "76291823",
+    "repo": "super-app-be",
+    "date": "2026-09-02",
+    "message": "fix: handle LDAP password reset errors with detailed logging",
+    "ticketNo": "ITSM 5 - 003",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "062cbd97",
+    "repo": "super-app-be",
+    "date": "2026-09-02",
+    "message": "feat(profile-card): update logo size in QR code generation for profile card template",
+    "ticketNo": "ITSM 5 - 004",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "e510f7aa",
+    "repo": "super-app-fe",
+    "date": "2026-09-03",
+    "message": "feat: update Kartu Identitas Pekerja form and ProfileCard component with new styles and images",
+    "ticketNo": "ITSM 5 - 005",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "dcbe0226",
+    "repo": "super-app-be",
+    "date": "2026-09-03",
+    "message": "feat: refactor email handling for internal job applications and remove AWS SES service",
+    "ticketNo": "ITSM 5 - 006",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "586aa8bc",
+    "repo": "super-app-be",
+    "date": "2026-09-04",
+    "message": "fix: correct error message for LDAP user not found in password reset",
+    "ticketNo": "ITSM 5 - 007",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "78d1a9a8",
+    "repo": "super-app-be",
+    "date": "2026-09-07",
+    "message": "fix: improve error handling in password reset for LDAP users",
+    "ticketNo": "ITSM 5 - 008",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "024ddc23",
+    "repo": "super-app-fe",
+    "date": "2026-09-08",
+    "message": "fix: remove warning message about username in password restrictions",
+    "ticketNo": "ITSM 5 - 009",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "45145317",
+    "repo": "super-app-fe",
+    "date": "2026-09-09",
+    "message": "fix: improve user feedback and UI text in reset password flow",
+    "ticketNo": "ITSM 5 - 010",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.175Z"
+  },
+  {
+    "hash": "c2be2688",
+    "repo": "super-app-fe",
+    "date": "2026-09-10",
+    "message": "fix: add note about password restrictions in reset password form",
+    "ticketNo": "ITSM 5 - 011",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "e3475625",
+    "repo": "super-app-fe",
+    "date": "2026-09-11",
+    "message": "fix: add warning message for password containing username or name",
+    "ticketNo": "ITSM 5 - 012",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "6956ac54",
+    "repo": "super-app-be",
+    "date": "2026-09-14",
+    "message": "feat: add 'pengalaman organisasi diluar perusahaan' field to CV and update template",
+    "ticketNo": "ITSM 5 - 013",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "fd4cd67a",
+    "repo": "super-app-fe",
+    "date": "2026-09-15",
+    "message": "refactor: rename pengalaman_organisasi_diluar_perusahaan to pengalaman_organisasi for consistency",
+    "ticketNo": "ITSM 5 - 014",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "66f70ec7",
+    "repo": "super-app-fe",
+    "date": "2026-09-16",
+    "message": "feat: add Pengalaman Organisasi section to CV and implement modal for management",
+    "ticketNo": "ITSM 5 - 015",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "c1367b52",
+    "repo": "super-app-fe",
+    "date": "2026-09-17",
+    "message": "feat: add UserCvCard component and integrate it into ProfilePage",
+    "ticketNo": "ITSM 5 - 016",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "43426e0d",
+    "repo": "super-app-fe",
+    "date": "2026-09-18",
+    "message": "refactor: remove CV button from InJobPage to ProfilePage",
+    "ticketNo": "ITSM 5 - 017",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "1cbf9c77",
+    "repo": "super-app-be",
+    "date": "2026-09-21",
+    "message": "feat: add social media fields to CV and update template",
+    "ticketNo": "ITSM 5 - 018",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "d923380c",
+    "repo": "super-app-fe",
+    "date": "2026-09-22",
+    "message": "feat: add social media fields (Instagram, LinkedIn, Facebook) to CV form and data handling",
+    "ticketNo": "ITSM 5 - 019",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "3580702c",
+    "repo": "super-app-be",
+    "date": "2026-09-23",
+    "message": "feat: add  saving, deleting, and previewing ijazah",
+    "ticketNo": "ITSM 5 - 020",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.177Z"
+  },
+  {
+    "hash": "53c155a7",
+    "repo": "super-app-be",
+    "date": "2026-09-24",
+    "message": "feat: add project exposure section to CV and update related models and services",
+    "ticketNo": "ITSM 5 - 021",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.178Z"
+  },
+  {
+    "hash": "c943fec9",
+    "repo": "super-app-be",
+    "date": "2026-09-25",
+    "message": "feat: update subtitle for education section in CV template",
+    "ticketNo": "ITSM 5 - 022",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.179Z"
+  },
+  {
+    "hash": "f705f9d5",
+    "repo": "super-app-fe",
+    "date": "2026-09-28",
+    "message": "feat: implement ijazah upload and management in CV education section",
+    "ticketNo": "ITSM 5 - 023",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.179Z"
+  },
+  {
+    "hash": "8eab7a2e",
+    "repo": "super-app-fe",
+    "date": "2026-09-29",
+    "message": "feat: add Project Exposure section to CV with modal management and data handling",
+    "ticketNo": "ITSM 5 - 024",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.179Z"
+  },
+  {
+    "hash": "7a75707",
+    "repo": "ihc-office-fe",
+    "date": "2026-09-30",
+    "message": "Add read status filter and localization support",
+    "ticketNo": "ITSM 5 - 025",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T04:24:28.179Z"
+  },
+  {
+    "hash": "df4bc3eb",
+    "repo": "super-app-be",
+    "date": "2026-09-01",
+    "message": "Prevent reset_token from becoming invalid when validation fails (e.g., incorrect date of birth) before completing password reset",
+    "ticketNo": "ITSM 5 - 001",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "80d9b278",
+    "repo": "super-app-be",
+    "date": "2026-09-01",
+    "message": "Prevent reset_token from becoming invalid when validation fails (e.g., incorrect date of birth) before completing password reset",
+    "ticketNo": "ITSM 5 - 002",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "6aefc743",
+    "repo": "super-app-be",
+    "date": "2026-09-02",
+    "message": "Enhance username validation in SendOtpRequest and ValidateOtpRequest to support email and phone formats",
+    "ticketNo": "ITSM 5 - 003",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "ef409a10",
+    "repo": "super-app-be",
+    "date": "2026-09-02",
+    "message": "Enhance username validation in SendOtpRequest and ValidateOtpRequest to support email and phone formats",
+    "ticketNo": "ITSM 5 - 004",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "a5cba18f",
+    "repo": "super-app-be",
+    "date": "2026-09-03",
+    "message": "feat: enhance InternalJobPekerjaanController and resource to include detailed application stages and user-specific data",
+    "ticketNo": "ITSM 5 - 005",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "bc1d70dc",
+    "repo": "super-app-fe",
+    "date": "2026-09-03",
+    "message": "feat: update location validation logic for WFO and WFH systems",
+    "ticketNo": "ITSM 5 - 006",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "d6604a30",
+    "repo": "super-app-fe",
+    "date": "2026-09-04",
+    "message": "feat: update location validation logic for WFO and WFH systems",
+    "ticketNo": "ITSM 5 - 007",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "612010b0",
+    "repo": "super-app-fe",
+    "date": "2026-09-07",
+    "message": "feat: add 'Tanggal Lahir' field to DataPekerjaPage and ProfileForm",
+    "ticketNo": "ITSM 5 - 008",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "35c3a8e1",
+    "repo": "super-app-fe",
+    "date": "2026-09-08",
+    "message": "feat: add 'Tanggal Lahir' field to DataPekerjaPage and ProfileForm",
+    "ticketNo": "ITSM 5 - 009",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "ceca512c",
+    "repo": "super-app-fe",
+    "date": "2026-09-09",
+    "message": "feat: add LangkahBerikutnyaCard component for displaying next steps in job application",
+    "ticketNo": "ITSM 5 - 010",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "47bc75e3",
+    "repo": "super-app-be",
+    "date": "2026-09-10",
+    "message": "feat: anouncement email update status pelamar. Status ditolak for each tahapan lamaran, status diterima if pelamar eligible.",
+    "ticketNo": "ITSM 5 - 011",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "afc28869",
+    "repo": "super-app-fe",
+    "date": "2026-09-11",
+    "message": "feat: enhance date formatting and status label display in internal job components",
+    "ticketNo": "ITSM 5 - 012",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "8ad59362",
+    "repo": "super-app-be",
+    "date": "2026-09-14",
+    "message": "Add logging for unknown identifier requests in OTP processing",
+    "ticketNo": "ITSM 5 - 013",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "776ffcad",
+    "repo": "super-app-be",
+    "date": "2026-09-15",
+    "message": "Refactor password reset error handling in OTPService to use Throwable and improve logging",
+    "ticketNo": "ITSM 5 - 014",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "0242537a",
+    "repo": "super-app-be",
+    "date": "2026-09-16",
+    "message": "hotfix: server error",
+    "ticketNo": "ITSM 5 - 015",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "e2082cec",
+    "repo": "super-app-fe",
+    "date": "2026-09-17",
+    "message": "fix: update date picker to MobileDatePicker and validate date of birth input",
+    "ticketNo": "ITSM 5 - 016",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "35437908",
+    "repo": "super-app-be",
+    "date": "2026-09-18",
+    "message": "feat(profile-card): add Endroid QR code library and update QR code generation in profile card template",
+    "ticketNo": "ITSM 5 - 017",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "e0cd308d",
+    "repo": "super-app-be",
+    "date": "2026-09-21",
+    "message": "feat(profile-card): update profile card layout and add QR code background image",
+    "ticketNo": "ITSM 5 - 018",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "548b4537",
+    "repo": "super-app-be",
+    "date": "2026-09-22",
+    "message": "feat(profile-card): add profile card template and images, update dependencies, and add preview route",
+    "ticketNo": "ITSM 5 - 019",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "6b4e606f",
+    "repo": "super-app-fe",
+    "date": "2026-09-23",
+    "message": "feat: add ProfileCard component and integrate profile fetching API",
+    "ticketNo": "ITSM 5 - 020",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "85117784",
+    "repo": "super-app-fe",
+    "date": "2026-09-24",
+    "message": "feat: add Kartu Identitas preview component and integrate API for image fetching",
+    "ticketNo": "ITSM 5 - 021",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "243dd2bf",
+    "repo": "super-app-fe",
+    "date": "2026-09-25",
+    "message": "feat: implement Kartu Identitas Pekerja page with form and API integration",
+    "ticketNo": "ITSM 5 - 022",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "aca9c430",
+    "repo": "super-app-fe",
+    "date": "2026-09-28",
+    "message": "feat: add URL and address fields to Unit form and display in Unit page",
+    "ticketNo": "ITSM 5 - 023",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "bc0ad8ac",
+    "repo": "super-app-fe",
+    "date": "2026-09-29",
+    "message": "fix: enhance header styling and layout for TabelLaporanPresensi component",
+    "ticketNo": "ITSM 5 - 024",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  },
+  {
+    "hash": "3cfdf5c0",
+    "repo": "super-app-be",
+    "date": "2026-09-30",
+    "message": "feat: add sync commands for HCIIS Departemen and PRL Jabatan",
+    "ticketNo": "ITSM 5 - 025",
+    "timesheetFile": "Kristian Suriyadharma - Timesheet September 2026 - IT Service & Maintenance.xlsx",
+    "reportedAt": "2026-10-05T06:33:54.805Z"
+  }
+]

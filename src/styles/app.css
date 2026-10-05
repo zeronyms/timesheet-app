@@ -1,0 +1,50 @@
+@import 'tailwindcss' source('../');
+
+/* Accent is Excel green: the one thing this app produces is an .xlsx file. */
+@theme {
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --color-paper: #f3f5f7;
+  --color-surface: #ffffff;
+  --color-ink: #16202a;
+  --color-muted: #5d6a77;
+  --color-line: #d8dee4;
+  --color-accent: #107c41;
+  --color-accent-soft: #e5f2ea;
+  --color-warn: #9a5b06;
+  --color-danger: #b42318;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #11161b;
+    --color-surface: #192027;
+    --color-ink: #e4e9ee;
+    --color-muted: #96a2ad;
+    --color-line: #2b343d;
+    --color-accent: #3fb37a;
+    --color-accent-soft: #19322a;
+    --color-warn: #e0a24a;
+    --color-danger: #f0776b;
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-feature-settings: 'tnum';
+  }
+  * {
+    @apply border-line;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@utility field {
+  @apply rounded-md border bg-surface px-2.5 py-1.5 text-sm text-ink placeholder:text-muted/70;
+}
