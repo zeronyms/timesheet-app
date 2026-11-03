@@ -1,20 +1,31 @@
 import { createFileRoute, useRouter } from "@tanstack/react-router";
 import { useState } from "react";
+import z from "zod";
+import { getAvailableRepos } from "~/server/git";
 import { getNotes, getServerInfo, postNote } from "~/server/info";
 
 export const Route = createFileRoute("/tentang")({
+    validateSearch: z.object({ cari: z.string().optional() }),
     loader: async () => {
-        const [info, catatan] = await Promise.all([
+        console.log("LOADER");
+        const [info, catatan, repos] = await Promise.all([
             getServerInfo(),
             getNotes(),
+            getAvailableRepos(),
         ]);
-        return { info, catatan };
+        return { info, catatan, repos };
     },
     component: AboutPage, //data siap, baru tampilin halaman
 });
 
 function AboutPage() {
-    const { info, catatan } = Route.useLoaderData();
+    const { info, catatan, repos } = Route.useLoaderData();
+    const { cari = "" } = Route.useSearch();
+    const navigate = Route.useNavigate();
+    const repoTampil = repos.filter((r) =>
+        r.toLowerCase().includes(cari.toLowerCase()),
+    );
+
     const router = useRouter();
     const [teks, setTeks] = useState(""); // state UI: isi kotak input
     const [error, setError] = useState("");
@@ -44,6 +55,28 @@ function AboutPage() {
                 <p className="mt-1 text-sm">
                     {catatan || <span className="text-muted">(belum ada)</span>}
                 </p>
+            </div>
+
+            <div>
+                <h2 className="font-medium">
+                    Repo di komputer ({repoTampil.length} dari {repos.length})
+                </h2>
+                <input
+                    value={cari}
+                    onChange={(e) =>
+                        navigate({
+                            search: { cari: e.target.value || undefined },
+                            replace: true,
+                        })
+                    }
+                    placeholder="Cari repo..."
+                    className="mt-2 w-72 rounded-md border px-3 py-1.5 text-sm"
+                />
+                <ul className="mt-2 text-sm">
+                    {repoTampil.map((r) => (
+                        <li key={r}>{r}</li>
+                    ))}
+                </ul>
             </div>
 
             <div className="flex gap-2">
